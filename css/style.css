@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* region debug */
+
+/* /region debug */
+
+/* region utility */
+
+:root {
+    --black: #1a1a1a;
+    --light-grey: #4a4b4b;
+    --white: #ffffff;
+    --share-screen: #4bc601;
+    --end-meetin: #823436;
+    --font: "Lato", sans-serif;
+}
+/* /region utility */
+
+
+
+/* region header */
+
+/* /region header */
+
+
+
+
+
+
+/* region main */
+
+/* /region main */
+
+
+
+
+
+
+/* region footer */
+
+
+/* /region footer */
