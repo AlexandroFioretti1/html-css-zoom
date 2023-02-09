@@ -10,12 +10,12 @@ body {
 }
 
 /* region debug */
-.debug {
+/* .debug {
     max-width: 95%;
     margin: auto;
     flex-wrap: wrap;
 }
-
+ */
 /* /region debug */
 /* region utility */
 :root {
@@ -25,6 +25,10 @@ body {
     --share-screen: #4bc601;
     --end-meetin: #823436;
     --font: "Lato", sans-serif;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 .position-relative {
@@ -53,7 +57,6 @@ body {
 
 /* /region utility */
 /* region header */
-
 .header-container {
     max-width: 100%;
     height: 40px;
@@ -73,11 +76,14 @@ span a {
     text-decoration: none;
 }
 
-
 /* /region header */
-
-
 /* region main */
+.main-container {
+    max-width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
 .username {
     display: inline;
     color: var(--white);
@@ -96,13 +102,25 @@ span a {
 /* region footer */
 
 #app-footer {
-    background-color: lightgrey;
+    background-color: var(--black-color);
 }
 
 .footer-container {
-    max-width: 100%;
-    background-color: lightgrey;
+    max-width: auto;
+    background-color: var(--black-color);
     height: 50px;
+}
+
+nav {
+    color: var(--white);
+}
+
+.end-meeting {
+    color: var(--end-meetin);
+    height: auto;
+    width: auto;
+    background-color: rgb(71, 71, 71);
+    font-size: 1rem;
 }
 
 /* /region footer */
