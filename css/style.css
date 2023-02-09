@@ -9,6 +9,10 @@ body {
     background-color: var(--black-color);
 }
 
+nav {
+    color: var(--white);
+}
+
 /* region debug */
 /* .debug {
     max-width: 95%;
@@ -27,8 +31,13 @@ body {
     --font: "Lato", sans-serif;
 }
 
+
 .inline-block {
     display: inline-block;
+}
+
+.flex {
+    display: flex;
 }
 
 .position-relative {
@@ -37,12 +46,6 @@ body {
 
 .position-absolute {
     position: absolute;
-    bottom: 1%;
-    left: 1%;
-}
-
-.flex {
-    display: flex;
 }
 
 .margin {
@@ -55,13 +58,16 @@ body {
     padding: 8px;
 }
 
+.green-button {
+    color: var(--share-screen);
+}
+
 /* /region utility */
 /* region header */
 .header-container {
     max-width: 100%;
     height: 40px;
     background-color: var(--black-color);
-
 }
 
 .link-header {
@@ -89,13 +95,17 @@ span a {
     color: var(--white);
 }
 
-.card i {
-    color: var(--white);
-}
-
 .img-card {
     width: calc(100% / 7);
+}
 
+.card {
+    bottom: 1%;
+    left: 1%;
+}
+
+.card i {
+    color: var(--white);
 }
 
 /* /region main */
@@ -107,20 +117,39 @@ span a {
 
 .footer-container {
     max-width: auto;
-    background-color: var(--black-color);
     height: 50px;
+    margin: auto;
+    justify-content: center;
 }
 
-nav {
-    color: var(--white);
-}
-
-.end-meeting {
-    color: var(--end-meetin);
+.nav-right-footer {
+    color: rgb(138, 50, 50);
     height: auto;
     width: auto;
     background-color: rgb(71, 71, 71);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
+
+.nav-left-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 1.2rem;
+}
+
+.nav-center-footer {
+    position: absolute;
+    right: 40%;
+    bottom: 0;
+    font-size: 1.2rem;
+}
+
+.nav-right-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
 
 /* /region footer */
